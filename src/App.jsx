@@ -7,7 +7,7 @@ function App() {
   let dispatch = useDispatch();
 
   let countUp = () => {
-    dispatch(increment(10));
+    dispatch(increment());
   };
 
   let countDown = () => {
